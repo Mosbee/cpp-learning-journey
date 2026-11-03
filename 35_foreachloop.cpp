@@ -8,4 +8,8 @@ int main ()
     {
         cout << tall << '\n';
     }
+    return 0;
 }
+
+// Basically what to do for each element of the iterable data set
+// In this example for every element of height cout it's value that we called tall
