@@ -17,7 +17,7 @@ int main ()
     string student;
     int size = sizeof(students)/sizeof(string);
     cout << "Enter the student's name : ";
-    cin >> student;
+    getline(cin, student);
     index = searchArray (students, size, student);
     if (index != -1)
         cout << "The student's number is : 202533013" << index;
