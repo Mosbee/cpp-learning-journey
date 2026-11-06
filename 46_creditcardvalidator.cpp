@@ -22,6 +22,7 @@ int main ()
 
     return 0;
 }
+
 int getDigit(const int number)
 {
     return number % 10 + number / 10;
